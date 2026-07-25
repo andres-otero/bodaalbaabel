@@ -7,7 +7,7 @@ const CONFIG = {
   // The name of the website
   name: 'A + A',
   // The origin of the website (without trailing slash)
-  origin: 'https://gl.birki.io',
+  origin: ' "https://andres-otero.github.io"',
   // The base pathname of the website
   basePathname: '/',
   // If the website uses trailing slashes in the URLs
@@ -20,7 +20,7 @@ const CONFIG = {
   weddingDate: '18/07/2027',
 
   // Website description
-  description: 'Grant and Leah are getting married! 💍',
+  description: 'Bode de Alba y Abel 💍',
 
   // Default site theme
   // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
