@@ -20,7 +20,7 @@ const CONFIG = {
   weddingDate: '18/07/2027',
 
   // Website description
-  description: 'Bode de Alba y Abel 💍',
+  description: 'Boda de Alba y Abel 💍',
 
   // Default site theme
   // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
