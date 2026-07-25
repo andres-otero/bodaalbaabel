@@ -39,8 +39,7 @@ const meta = {
           rel: hero.callToAction2.rel,
           icon: hero.callToAction2.icon,
         }}
-        image={{ enabled: hero.image.enabled, src: hero.image.src, alt: hero.image.alt }}
-      >
+              >
         {hero.title.enabled && <Fragment slot="title" set:html={hero.title.text} />}
 
         {hero.subtitle.enabled && <Fragment slot="subtitle" set:html={hero.subtitle.text} />}
