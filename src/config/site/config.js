@@ -1,11 +1,11 @@
 // General configuration for the website
 
-import defaultImage from '../../assets/images/default.png';
+
 import blog from './blog';
 
 const CONFIG = {
   // The name of the website
-  name: 'G + L',
+  name: 'A + A',
   // The origin of the website (without trailing slash)
   origin: 'https://gl.birki.io',
   // The base pathname of the website
@@ -14,28 +14,20 @@ const CONFIG = {
   trailingSlash: false,
 
   // The website title which is displayed in the browser tab
-  title: 'G + L',
+  title: 'A + A',
 
   // wedding data
-  weddingDate: '09/30/2024',
+  weddingDate: '18/07/2027',
 
   // Website description
   description: 'Grant and Leah are getting married! 💍',
-
-  // The website's preview image that is displayed when sharing the website on social media
-  defaultImage: defaultImage,
-  // The default alt attribute for the preview image
-  defaultImageAlt: 'Default image',
-  // The default width and height of the preview image
-  defaultImageWidth: 1605,
-  defaultImageHeight: 850,
 
   // Default site theme
   // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
   defaultTheme: 'light:only',
 
   // The default language of the website
-  language: 'en',
+  language: 'es',
   // The default text direction (ltr is left-to-right, rtl is right-to-left)
   textDirection: 'ltr',
 

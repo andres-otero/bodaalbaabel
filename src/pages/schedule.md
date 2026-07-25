@@ -1,57 +1,25 @@
 ---
-title: 'Schedule'
+title: 'Cuándo y dónde'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-## Welcome Dinner 🍽️
+## Ceremonia 💍
 
-| Time     | Date                   | Location       |
-| -------- | ---------------------- | -------------- |
-| 6pm(ish) | Sunday, September 29th | Hacienda House |
-
-Check-in after 3 pm and join us at the main house on De Tierra's property for a causal dinner & drinks to start the festivities!
-
-## Ceremony & Reception 💍
-
-| Time | Date                   | Location   |
+| Hora | Fecha                   | Lugar   |
 | ---- | ---------------------- | ---------- |
-| 4pm  | Monday, September 30th | Front Lawn |
+| 12:00  | 18 de Julio | Pazo de Santa Cruz |
 
-Ceremony is to be followed by dinner in the olive grove and lots of dancing!
 
-> The dress code for the wedding is semi-formal / cocktail attire
+## Lugar
 
-## After Party 🥳
+![pazo_santa_cruz](src/assets/images/pazo_santa_cruz.jpg)
+### Pazo de Santa Cruz
 
-| Time            | Date                   | Location  |
-| --------------- | ---------------------- | --------- |
-| 10:30 pm - late | Monday, September 30th | Game Room |
+Construido en el siglo XVII, el Pazo de Santa Cruz es un lugar único. En lo alto de la ría de Pontevedra, el también conocido como pazo de quitapesares, acompaña su histórica construcción con jardines, capilla, bosques centenarios y un invernadero inglés.
 
-Due to a noise ordinance, we’ve got to wrap up the party at 10pm, so join us to keep the party going with some late-night bites and quieter music in the game room.
+#### Dirección
 
-## Your Day to Explore 🏖️
+- **Dirección:** Rua do Pazo s/n · Bueu – Pontevedra · 36939 – Galicia, España.
+- **Google Maps:** [Link a Google Maps](https://maps.app.goo.gl/uFyxuvMSLZcijhro6)
 
-| Time        | Date                 | Location            |
-| ----------- | -------------------- | ------------------- |
-| 9:30am(ish) | Tuesday, October 1st | _Wherever you want_ |
 
-> Breakfast at 9:30ish
-
-We will have a pancake and waffle breakfast at the Hacienda House for guests at 9:30ish am & then we HIGHLY recommend you check out the “things to do” page and explore the beautiful coastline of Monterey and Carmel by the Sea. If you’d rather stay on the property, you’re more than welcome to join some in a relaxing day of games, pool time, and a potential winery tour.
-
-### Send Off 👋🍻
-
-For dinner, there will be an informal gathering in the town of Monterey for a fun night out. We will be meeting at an English pub called the [Crown and Anchor](https://g.co/kgs/jYD9Y6W) at 5:30pm for happy hour and pints. The Monterey farmers market is right outside the pub and will be running between 4-7pm if you would like to check that out as well.
-
-After dinner and drinks at the pub, we will be walking over to a game arcade and getting some incredible ice cream from the shop next door. The arcade closes at 10pm and if we are feeling really wild, we might end up at a disco club around the corner that closes at 1am. 💃🕺🪩
-
-## Pack Up & Check Out 🧳
-
-| Time    | Date                   | Location       |
-| ------- | ---------------------- | -------------- |
-| Morning | Wednesday, October 2nd | Hacienda House |
-
-Wednesday, October 2nd
-Hacienda House
-
-We will say our goodbyes at the Hacienda House as we prepare to check out by 11am and bid adieu to all our favorite people.

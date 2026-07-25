@@ -1,5 +1,5 @@
 ---
-title: 'RSVP'
+title: 'Confirma tu asistencia'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

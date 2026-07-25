@@ -8,39 +8,31 @@ const headerData = {
   // List of links to be displayed in the header
   links: [
     {
-      text: 'Home',
+      text: 'Inicio',
       href: '/',
     },
     {
-      text: 'Travel + Stay',
+      text: 'Alojamiento',
       href: '/travel-and-stay',
     },
     {
-      text: 'Schedule',
+      text: 'Cuándo y dónde',
       href: '/schedule',
     },
     {
-      text: 'Gifts',
+      text: 'Regalo',
       href: '/gifts',
     },
     {
-      text: 'Save the Date',
-      href: '/save-the-date',
-    },
-    {
-      text: 'Things to Do',
+      text: 'Por si te sobra tiempo',
       href: '/things-to-do',
     },
     {
-      text: 'FAQs',
+      text: 'Dudas y sugerencias',
       href: '/faqs',
     },
     {
-      text: 'Gallery',
-      href: getPermalink('/gallery'),
-    },
-    {
-      text: 'RSVP',
+      text: 'Confirma tu asistencia',
       href: '/rsvp',
     },
 

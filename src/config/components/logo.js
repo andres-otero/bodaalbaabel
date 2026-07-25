@@ -2,7 +2,7 @@
 
 const logo = {
   // The text to be displayed on the top left corner of the page
-  text: `G + L 💍`,
+  text: `A + A 💍`,
 };
 
 export default logo;

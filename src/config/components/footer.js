@@ -9,29 +9,24 @@ const footerData = {
   links: [
     {
       // The title of the section
-      title: 'Details',
+      title: 'Detalles',
       // List of links to be displayed in the section
       links: [
-        { text: 'Schedule', href: '/schedule' },
-        { text: 'Things to Do', href: '/things-to-do' },
-        { text: 'Travel + Stay', href: '/travel-and-stay' },
-        { text: 'FAQs', href: '/faqs' },
+        { text: 'Cuándo y dónde', href: '/schedule' },
+        { text: 'Por si te sobre tiempo', href: '/things-to-do' },
+        { text: 'Alojamiento', href: '/travel-and-stay' },
+        { text: 'Dudas y sugerencias', href: '/faqs' },
       ],
     },
     {
-      title: 'Invite',
+      title: 'Invitación',
       links: [
-        { text: 'RSVP', href: '/rsvp' },
-        { text: 'Digital Save the Date', href: '/save-the-date' },
+        { text: 'Confirma tu asistencia', href: '/rsvp' },
       ],
     },
     {
-      title: 'Gallery',
-      links: [{ text: 'Photos', href: '/gallery' }],
-    },
-    {
-      title: 'Links',
-      links: [{ text: 'Gifts', href: '/gifts' }],
+      title: 'Enlaces',
+      links: [{ text: 'Regalo', href: '/gifts' }],
     },
   ],
 
@@ -41,13 +36,6 @@ const footerData = {
     // { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
 
-  // A list of social links to be displayed in the footer
-  socialLinks: [{ ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: 'https://github.com/grantbirki/gl' }],
-
-  // The footnote to be displayed in the footer (can contain HTML)
-  footNote: `
-    Made by <a class="text-sage-800 hover:underline dark:text-gray-200" target="_blank" href="https://github.com/grantbirki/gl"> Grant and Leah</a> with ❤️
-  `,
 };
 
 export default footerData;
