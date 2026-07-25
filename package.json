@@ -31,7 +31,7 @@
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/ri": "^1.1.18",
     "@iconify-json/tabler": "^1.1.106",
-    "@tailwindcss/typography": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.20",
     "@typescript-eslint/eslint-plugin": "^8.54.0",
     "@typescript-eslint/parser": "^8.54.0",
     "@vitest/coverage-v8": "^4.0.18",
