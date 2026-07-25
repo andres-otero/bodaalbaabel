@@ -9,31 +9,31 @@ const headerData = {
   links: [
     {
       text: 'Inicio',
-      href: '/',
+      href: '`${import.meta.env.BASE_URL}/',
     },
     {
       text: 'Alojamiento',
-      href: '/travel-and-stay',
+      href: '`${import.meta.env.BASE_URL}/travel-and-stay',
     },
     {
       text: 'Cuándo y dónde',
-      href: '/schedule',
+      href: '`${import.meta.env.BASE_URL}/schedule',
     },
     {
       text: 'Regalo',
-      href: '/gifts',
+      href: '`${import.meta.env.BASE_URL}/gifts',
     },
     {
       text: 'Por si te sobra tiempo',
-      href: '/things-to-do',
+      href: '`${import.meta.env.BASE_URL}/things-to-do',
     },
     {
       text: 'Dudas y sugerencias',
-      href: '/faqs',
+      href: '`${import.meta.env.BASE_URL}/faqs',
     },
     {
       text: 'Confirma tu asistencia',
-      href: '/rsvp',
+      href: '`${import.meta.env.BASE_URL}/rsvp',
     },
 
     // // The blog link is a special case, it uses the getBlogPermalink function
