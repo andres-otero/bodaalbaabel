@@ -25,7 +25,7 @@ const hero = {
     // Image source
     src: import('~/assets/images/hero.png'),
     // Image alt text
-    alt: 'Grant and Leah',
+    alt: 'Alba y Abel',
   },
 };
 

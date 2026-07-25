@@ -46,17 +46,7 @@ const hero = {
     // Rel html <a> tag
     rel: 'noopener',
     icon: 'tabler:book',
-  },
-
-  // Hero image
-  image: {
-    // If the image should be enabled or not
-    enabled: true,
-    // Image source
-    src: import('~/assets/images/save-the-date.png'),
-    // Image alt text
-    alt: 'Grant and Leah',
-  },
+  }
 };
 
 export default hero;
