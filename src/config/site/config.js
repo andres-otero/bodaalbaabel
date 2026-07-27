@@ -7,9 +7,9 @@ const CONFIG = {
   // The name of the website
   name: 'A + A',
   // The origin of the website (without trailing slash)
-  origin: 'https://andres-otero.github.io',
+  origin: 'http://www.bodaalbabel.es',
   // The base pathname of the website
-  basePathname: '/bodaalbaabel',
+  basePathname: '/',
   // If the website uses trailing slashes in the URLs
   trailingSlash: false,
 
