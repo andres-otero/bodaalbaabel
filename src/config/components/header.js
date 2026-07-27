@@ -10,27 +10,27 @@ const headerData = {
     },
     {
       text: 'Alojamiento',
-      href: `${base}/travel-and-stay`,
+      href: `/travel-and-stay`,
     },
     {
       text: 'Cuándo y dónde',
-      href: `${base}/schedule`,
+      href: `/schedule`,
     },
     {
       text: 'Regalo',
-      href: `${base}/gifts`,
+      href: `/gifts`,
     },
     {
       text: 'Por si te sobra tiempo',
-      href: `${base}/things-to-do`,
+      href: `/things-to-do`,
     },
     {
       text: 'Dudas y sugerencias',
-      href: `${base}/faqs`,
+      href: `/faqs`,
     },
     {
       text: 'Confirma tu asistencia',
-      href: `${base}/rsvp`,
+      href: `/rsvp`,
     },
   ],
 
