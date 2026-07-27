@@ -6,22 +6,22 @@ const footerData = {
     {
       title: 'Detalles',
       links: [
-        { text: 'Cuándo y dónde', href: `${base}/schedule` },
-        { text: 'Por si te sobra tiempo', href: `${base}/things-to-do` },
-        { text: 'Alojamiento', href: `${base}/travel-and-stay` },
-        { text: 'Dudas y sugerencias', href: `${base}/faqs` },
+        { text: 'Cuándo y dónde', href: `/schedule` },
+        { text: 'Por si te sobra tiempo', href: `/things-to-do` },
+        { text: 'Alojamiento', href: `/travel-and-stay` },
+        { text: 'Dudas y sugerencias', href: `/faqs` },
       ],
     },
     {
       title: 'Invitación',
       links: [
-        { text: 'Confirma tu asistencia', href: `${base}/rsvp` },
+        { text: 'Confirma tu asistencia', href: `/rsvp` },
       ],
     },
     {
       title: 'Enlaces',
       links: [
-        { text: 'Regalo', href: `${base}/gifts` },
+        { text: 'Regalo', href: `/gifts` },
       ],
     },
   ],
