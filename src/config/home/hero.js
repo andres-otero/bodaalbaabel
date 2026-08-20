@@ -23,7 +23,7 @@ const hero = {
     // If the image should be enabled or not
     enabled: true,
     // Image source
-    src: import('~/assets/images/1.png'),
+    src: import('~/assets/images/1.jpeg'),
     // Image alt text
     alt: 'Alba y Abel',
   },
