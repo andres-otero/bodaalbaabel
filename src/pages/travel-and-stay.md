@@ -9,12 +9,14 @@ La opción más cómoda para quienes quieran estar cerca de la celebración.
 
 * Hotel Incamar
 * Hotel Loureiro
-* Alda Bueumar
 * Vilar Norte
 * Casa Videira
-* Apartamentos y casas vacacionales en Bueu
+* Casa Rural a Torre Vella
+* ⁠Casa Rural Vilar Norte 
+* ⁠Casita Barrena 
+* ⁠Pensión Lubina
 
-##🌊 Cangas
+## 🌊 Cangas
 
 Una zona con bastante más oferta de alojamiento y muy buena opción si queréis aprovechar para conocer Cangas y las playas de la zona.
 
