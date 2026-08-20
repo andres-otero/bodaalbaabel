@@ -25,8 +25,12 @@ const headerData = {
       href: `/things-to-do`,
     },
     {
-      text: 'Dudas y sugerencias',
+      text: 'Viaje',
       href: `/faqs`,
+    },
+    {
+      text: 'Como llegar',
+      href: `/comollegar`,
     },
     {
       text: 'Confirma tu asistencia',
