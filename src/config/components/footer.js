@@ -7,22 +7,17 @@ const footerData = {
       title: 'Detalles',
       links: [
         { text: 'Cuándo y dónde', href: `/schedule` },
-        { text: 'Por si te sobra tiempo', href: `/things-to-do` },
-        { text: 'Alojamiento', href: `/travel-and-stay` },
         { text: 'Viaje', href: `/faqs` },
+        { text: 'Alojamiento', href: `/travel-and-stay` },
         { text: 'Como llegar', href: `/comollegar` },
+        { text: 'Preboda', href: `/preboda` },
+        { text: 'Por si te sobra tiempo', href: `/things-to-do` },
       ],
     },
     {
       title: 'Invitación',
       links: [
         { text: 'Confirma tu asistencia', href: `/rsvp` },
-      ],
-    },
-    {
-      title: 'Enlaces',
-      links: [
-        { text: 'Regalo', href: `/gifts` },
       ],
     },
   ],
