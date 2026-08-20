@@ -33,43 +33,48 @@ const targetDate = '2027-07-18T00:00:00+02:00';
 <script define:vars={{ targetDate }}>
   const target = new Date(targetDate).getTime();
 
-  const days = document.querySelector('#days');
-  const hours = document.querySelector('#hours');
-  const minutes = document.querySelector('#minutes');
-  const seconds = document.querySelector('#seconds');
+  const daysElement = document.querySelector('#days');
+  const hoursElement = document.querySelector('#hours');
+  const minutesElement = document.querySelector('#minutes');
+  const secondsElement = document.querySelector('#seconds');
 
   function updateCountdown() {
-    const now = Date.now();
-    const difference = target - now;
+    const difference = target - Date.now();
 
     if (difference <= 0) {
-      days.textContent = '00';
-      hours.textContent = '00';
-      minutes.textContent = '00';
-      seconds.textContent = '00';
+      if (daysElement) daysElement.textContent = '00';
+      if (hoursElement) hoursElement.textContent = '00';
+      if (minutesElement) minutesElement.textContent = '00';
+      if (secondsElement) secondsElement.textContent = '00';
       return;
     }
 
     const totalSeconds = Math.floor(difference / 1000);
 
-    const d = Math.floor(totalSeconds / 86400);
-    const h = Math.floor((totalSeconds % 86400) / 3600);
-    const m = Math.floor((totalSeconds % 3600) / 60);
-    const s = totalSeconds % 60;
+    const days = Math.floor(totalSeconds / 86400);
+    const hours = Math.floor((totalSeconds % 86400) / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
 
-    days.textContent = String(d).padStart(2, '0');
-    hours.textContent = String(h).padStart(2, '0');
-    minutes.textContent = String(m).padStart(2, '0');
-    seconds.textContent = String(s).padStart(2, '0');
+    if (daysElement) {
+      daysElement.textContent = String(days).padStart(2, '0');
+    }
+
+    if (hoursElement) {
+      hoursElement.textContent = String(hours).padStart(2, '0');
+    }
+
+    if (minutesElement) {
+      minutesElement.textContent = String(minutes).padStart(2, '0');
+    }
+
+    if (secondsElement) {
+      secondsElement.textContent = String(seconds).padStart(2, '0');
+    }
   }
 
   updateCountdown();
-
-  const interval = setInterval(updateCountdown, 1000);
-
-  document.addEventListener('astro:before-preparation', () => {
-    clearInterval(interval);
-  });
+  setInterval(updateCountdown, 1000);
 </script>
 
 <style>
