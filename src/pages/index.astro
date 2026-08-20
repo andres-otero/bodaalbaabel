@@ -28,6 +28,8 @@ import ImageGallery from '~/components/widgets/Gallery.jsx';
 import gallery from '~/config/home/gallery';
 
 import labels from '../config/components/map.json';
+import Countdown from '../components/countdown.astro';
+
 
 const meta = {
   title: SITE.title,
@@ -35,7 +37,7 @@ const meta = {
   dontUseTitleTemplate: true,
 };
 ---
-
+<Countdown />
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
 
