@@ -1,0 +1,164 @@
+---
+const events = [
+  {
+    time: '12:00',
+    title: 'Ceremonia',
+  },
+  {
+    time: '14:30',
+    title: 'Cóctel',
+    description: 'Brindis y aperitivo en los jardines.',
+  },
+  {
+    time: '16:30',
+    title: 'Banquete',
+    description: 'Comida y celebración.',
+  },
+  {
+    time: '19:00',
+    title: 'Fiesta',
+    description: 'Música, baile y mucha fiesta.',
+  },
+];
+---
+
+<section class="itinerary" aria-label="Itinerario de la boda">
+  <div class="timeline">
+    {events.map((event, index) => (
+      <article class:list={['event', { active: index === 0 }]} data-event={index}>
+        <div class="event-marker">
+          <span></span>
+        </div>
+
+        <div class="event-content">
+          <time>{event.time}</time>
+          <h3>{event.title}</h3>
+          <p>{event.description}</p>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<script>
+  const events = document.querySelectorAll('.event');
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          events.forEach((event) => event.classList.remove('active'));
+          entry.target.classList.add('active');
+        }
+      });
+    },
+    {
+      threshold: 0.5,
+    }
+  );
+
+  events.forEach((event) => observer.observe(event));
+</script>
+
+<style>
+  .itinerary {
+    width: 100%;
+    max-width: 800px;
+    margin: 6rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .timeline {
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #d8d8d8;
+  }
+
+  .event {
+    position: relative;
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 2rem;
+    min-height: 260px;
+    opacity: 0.35;
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+
+  .event.active {
+    opacity: 1;
+    transform: translateX(8px);
+  }
+
+  .event-marker {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .event-marker span {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background: white;
+    transition:
+      transform 0.6s ease,
+      background 0.6s ease;
+  }
+
+  .event.active .event-marker span {
+    transform: scale(1.4);
+    background: #333;
+  }
+
+  .event-content {
+    padding-bottom: 4rem;
+  }
+
+  .event-content time {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+  }
+
+  .event-content h3 {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .event-content p {
+    max-width: 500px;
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 600px) {
+    .itinerary {
+      margin: 4rem auto;
+      padding: 0 1rem;
+    }
+
+    .event {
+      gap: 1.25rem;
+      min-height: 220px;
+    }
+
+    .event-content h3 {
+      font-size: 1.6rem;
+    }
+  }
+</style>

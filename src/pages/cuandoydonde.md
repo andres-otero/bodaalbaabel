@@ -1,14 +1,11 @@
 ---
 title: 'Cuándo y dónde'
 layout: '~/layouts/MarkdownLayout.astro'
+
+import Itinerary from '~/components/Itinerary.astro';
 ---
 
-## Ceremonia 💍
-
-| Hora | Fecha                   | Lugar   |
-| ---- | ---------------------- | ---------- |
-| 12:00  | 17 de Julio | Pazo de Santa Cruz |
-
+<Itinerary />
 
 ## Lugar
 
