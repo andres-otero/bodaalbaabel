@@ -1,9 +1,7 @@
 ---
-title: 'Por si te sobra tiempo'
+title: 'Qué hacer por el Morrazo 💙'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
-
-# Qué hacer por el Morrazo 💙
 
 Ya que vais a venir hasta aquí, ¡esperamos que aprovechéis para conocer un poquito el Morrazo y sus alrededores! Os dejamos algunos de nuestros planes favoritos.
 
