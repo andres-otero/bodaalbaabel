@@ -1,0 +1,48 @@
+---
+import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
+import Itinerary from '~/components/Itinerary.astro';
+import pazoSantaCruz from '~/assets/images/pazo_santa_cruz.jpg';
+---
+
+<MarkdownLayout
+  frontmatter={{
+    title: 'Cuándo y dónde',
+  }}
+>
+  <Itinerary />
+
+  <h2>Lugar</h2>
+
+  <img
+    src={pazoSantaCruz.src}
+    alt="Pazo de Santa Cruz"
+    class="rounded-md shadow-lg"
+  />
+
+  <h3>Pazo de Santa Cruz</h3>
+
+  <p>
+    Construido en el siglo XVII, el Pazo de Santa Cruz es un lugar único.
+    En lo alto de la ría de Pontevedra, el también conocido como Pazo de
+    Quitapesares, acompaña su histórica construcción con jardines, capilla,
+    bosques centenarios y un invernadero inglés.
+  </p>
+
+  <h4>Dirección</h4>
+
+  <p>
+    <strong>Dirección:</strong>
+    Rua do Pazo s/n · Bueu – Pontevedra · 36939 – Galicia, España.
+  </p>
+
+  <p>
+    <strong>Google Maps:</strong>
+    <a
+      href="https://maps.app.goo.gl/uFyxuvMSLZcijhro6"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Ver ubicación
+    </a>
+  </p>
+</MarkdownLayout>
