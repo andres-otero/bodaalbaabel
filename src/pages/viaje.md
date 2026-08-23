@@ -1,4 +1,4 @@
-º---
+---
 title: 'Viaje'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
