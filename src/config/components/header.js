@@ -10,15 +10,15 @@ const headerData = {
     },
     {
       text: 'Cuándo y dónde',
-      href: `/schedule`,
+      href: `/cuandoydonde`,
     },
     {
       text: 'Viaje',
-      href: `/faqs`,
+      href: `/viaje`,
     },
     {
       text: 'Alojamiento',
-      href: `/travel-and-stay`,
+      href: `/alojamiento`,
     },
     {
       text: 'Como llegar',
@@ -30,12 +30,12 @@ const headerData = {
     },
     {
       text: 'Por si te sobra tiempo',
-      href: `/things-to-do`,
+      href: `/porsitesobratiempo`,
     },
 
     {
       text: 'Confirma tu asistencia',
-      href: `/rsvp`,
+      href: `/confirmaasistencia`,
     },
   ],
 

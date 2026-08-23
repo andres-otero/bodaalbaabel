@@ -7,7 +7,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 | Hora | Fecha                   | Lugar   |
 | ---- | ---------------------- | ---------- |
-| 12:00  | 18 de Julio | Pazo de Santa Cruz |
+| 12:00  | 17 de Julio | Pazo de Santa Cruz |
 
 
 ## Lugar
