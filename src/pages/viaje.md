@@ -11,7 +11,14 @@ Desde Tudela hasta Bueu, Seixo-Marín o Cangas, que son los lugares donde os alo
 
 ## 🚆 En tren  
 
-Podéis viajar desde Tudela hasta Pontevedra o Vigo, normalmente haciendo algún enlace. El trayecto puede durar aproximadamente 8-10 horas, dependiendo de la combinación.  Una vez allí, podéis llegar hasta vuestro alojamiento en Seixo-Marín, Bueu o Cangas en taxi o alquilar un coche.  Si llegáis a Pontevedra: podéis alquilar un coche directamente en la Estación de Tren de Pontevedra, donde encontraréis las compañías Enterprise, National Car Rental y Alamo.  Si llegáis a Vigo: podéis llegar a Vigo-Guixar y alquilar un coche directamente en la propia estación. Allí encontraréis Enterprise, National Car Rental y Alamo. Además, también está disponible CICAR.  Así, podéis recoger el coche nada más llegar y desplazaros cómodamente hasta vuestro alojamiento y durante vuestra estancia.
+Podéis viajar desde Tudela hasta Pontevedra o Vigo, normalmente haciendo algún enlace. El trayecto puede durar aproximadamente 8-10 horas, dependiendo de la combinación.  
+Una vez allí, podéis llegar hasta vuestro alojamiento en Seixo-Marín, Bueu o Cangas en taxi o alquilar un coche.  
+
+Si llegáis a Pontevedra: podéis alquilar un coche directamente en la Estación de Tren de Pontevedra, donde encontraréis las compañías Enterprise, National Car Rental y Alamo.  
+
+Si llegáis a Vigo: podéis llegar a Vigo-Guixar y alquilar un coche directamente en la propia estación. Allí encontraréis Enterprise, National Car Rental y Alamo. Además, también está disponible CICAR. 
+
+ Así, podéis recoger el coche nada más llegar y desplazaros cómodamente hasta vuestro alojamiento y durante vuestra estancia.
 
 ## ✈️ En avión desde Zaragoza
 
