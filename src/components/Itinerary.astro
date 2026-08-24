@@ -41,23 +41,51 @@ const events = [
 </section>
 
 <script>
-  const events = document.querySelectorAll('.event');
+  const events = [...document.querySelectorAll('.event')];
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          events.forEach((event) => event.classList.remove('active'));
-          entry.target.classList.add('active');
-        }
-      });
+  function updateActiveEvent() {
+    const screenCenter = window.innerHeight / 2;
+
+    let closestEvent = events[0];
+    let closestDistance = Infinity;
+
+    events.forEach((event) => {
+      const rect = event.getBoundingClientRect();
+      const eventCenter = rect.top + rect.height / 2;
+
+      const distance = Math.abs(screenCenter - eventCenter);
+
+      if (distance < closestDistance) {
+        closestDistance = distance;
+        closestEvent = event;
+      }
+    });
+
+    events.forEach((event) => {
+      event.classList.toggle('active', event === closestEvent);
+    });
+  }
+
+  let ticking = false;
+
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateActiveEvent();
+          ticking = false;
+        });
+
+        ticking = true;
+      }
     },
-    {
-      threshold: 0.5,
-    }
+    { passive: true }
   );
 
-  events.forEach((event) => observer.observe(event));
+  window.addEventListener('resize', updateActiveEvent);
+
+  updateActiveEvent();
 </script>
 
 <style>
@@ -82,22 +110,18 @@ const events = [
     background: #d8d8d8;
   }
 
-  .event {
-    position: relative;
-    display: grid;
-    grid-template-columns: 22px 1fr;
-    gap: 2rem;
-    min-height: 260px;
-    opacity: 0.35;
-    transition:
-      opacity 0.6s ease,
-      transform 0.6s ease;
-  }
+ .event {
+  min-height: 400px;
+  opacity: 0.25;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
 
-  .event.active {
-    opacity: 1;
-    transform: translateX(8px);
-  }
+.event.active {
+  opacity: 1;
+  transform: translateX(8px);
+}
 
   .event-marker {
     position: relative;

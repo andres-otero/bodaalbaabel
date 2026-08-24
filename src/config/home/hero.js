@@ -15,7 +15,7 @@ const hero = {
     enabled: true, // If the subtitle should be enabled or not
     text: `<span class="fancy"> ¡Nos casamos!<br><br>Pazo de Santa Cruz, Bueu, Galicia
     <br>18 de Julio de 2027
-    </span>`,
+    </span>`
   },
 
   // Hero image
