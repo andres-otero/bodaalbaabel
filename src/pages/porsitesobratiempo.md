@@ -7,25 +7,25 @@ Ya que vais a venir hasta aquí, ¡esperamos que aprovechéis para conocer un po
 
 ## 🏝️ Islas Ons
 
-Una de las excursiones que más os recomendamos. Desde Bueu salen barcos directamente hacia Ons, por lo que es una opción especialmente cómoda si os alojáis por la zona. (Illas Atlánticas⁠￼)
+Una de las excursiones que más os recomendamos. Desde Bueu salen barcos directamente hacia Ons, por lo que es una opción especialmente cómoda si os alojáis por la zona. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
 Podéis pasar el día disfrutando de sus playas, haciendo alguna de sus rutas de senderismo y conociendo la isla. También podéis comer allí o llevaros algo para pasar el día.
 
-⚠️ Importante: al ser julio, os recomendamos reservar los billetes con bastante antelación. En temporada alta Ons tiene un límite de visitantes diarios y es necesario disponer de autorización previa de la Xunta. (Illas Atlánticas⁠￼)
+⚠️ Importante: al ser julio, os recomendamos reservar los billetes con bastante antelación. En temporada alta Ons tiene un límite de visitantes diarios y es necesario disponer de autorización previa de la Xunta. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
-¿Cómo reservar? Primero tenéis que solicitar gratuitamente la autorización en la web de la Xunta. Una vez tengáis el código de pre-reserva, disponéis de 2 horas para comprar el billete de barco con una naviera autorizada. (Illas Atlánticas⁠￼)
+¿Cómo reservar? Primero tenéis que solicitar gratuitamente la autorización en la web de la Xunta. Una vez tengáis el código de pre-reserva, disponéis de 2 horas para comprar el billete de barco con una naviera autorizada. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
 Desde Bueu podéis consultar las salidas y comprar los billetes en Piratas de Nabia Naviera - Taquilla Bueu o Cruceros Islas De Ons.
 
 ## 🏝️ Islas Cíes
 
-Otro de los grandes imprescindibles de las Rías Baixas. Las Cíes forman parte del Parque Nacional das Illas Atlánticas y podéis disfrutar de la famosa playa de Rodas, además de hacer alguna de las rutas hasta sus miradores. (Illas Atlánticas⁠￼)
+Otro de los grandes imprescindibles de las Rías Baixas. Las Cíes forman parte del Parque Nacional das Illas Atlánticas y podéis disfrutar de la famosa playa de Rodas, además de hacer alguna de las rutas hasta sus miradores. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
 Para vosotros, una opción muy cómoda es salir desde Cangas, aunque en temporada alta también existen salidas desde Vigo y Baiona.
 
-⚠️ Importante: también os recomendamos reservar con mucha antelación, especialmente en julio. Las Cíes tienen un límite diario de visitantes y es necesaria la autorización de la Xunta. (Illas Atlánticas⁠￼)
+⚠️ Importante: también os recomendamos reservar con mucha antelación, especialmente en julio. Las Cíes tienen un límite diario de visitantes y es necesaria la autorización de la Xunta. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
-El proceso es el mismo que para Ons: primero solicitáis la autorización en la web de la Xunta y, una vez obtenido el código, tenéis 2 horas para comprar el billete de barco. (Illas Atlánticas⁠￼)
+El proceso es el mismo que para Ons: primero solicitáis la autorización en la web de la Xunta y, una vez obtenido el código, tenéis 2 horas para comprar el billete de barco. [Illas Atlánticas⁠](https://illasatlanticas.gal/es/inicio)
 
 Desde Cangas podéis consultar las salidas en Taquilla Mar de Ons - Estación Marítima Cangas o Piratas de Nabia Naviera - Taquilla Cangas.
 
